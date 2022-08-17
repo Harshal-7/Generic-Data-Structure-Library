@@ -251,6 +251,8 @@ void GenericDC<T>::Display()
 
     cout << endl;
 
+    cout << "Elements From Linked List are: \n" << endl;
+
     do
     {
         cout << "|" << temp->data << "| - ";
@@ -278,12 +280,14 @@ int main()
     float fValue = 0.0;
     char cValue = '\0';
 
-    cout << "\n Choose the Operation : " << endl;
+    cout << "\nChoose the Operation : " << endl;
     cout << "1 : Integer" << endl;
     cout << "2 : Float" << endl;
     cout << "3 : Character" << endl;
 
+    cout << "\n> ";
     cin >> iOpr;
+    cout << endl;
     
     if(iOpr == 1)
     {
@@ -304,8 +308,10 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> iChoise;
-            
+            cout << endl;
+
             switch(iChoise)
             {
                 case 1:
@@ -381,7 +387,9 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> fChoise;
+            cout << endl;
             
             switch(fChoise)
             {
@@ -458,7 +466,9 @@ int main()
             cout << "8 : Count Nodes" << endl;
             cout << "9 : Terminate The Application" << endl;
 
+            cout << "\n> ";
             cin >> iChoise;
+            cout << endl;
             
             switch(iChoise)
             {
